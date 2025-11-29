@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: fct_container_journey
+    description: "Fact table containing summarized journey metrics for each container."
+    columns:
+      - name: container_id
+        tests:
+          - not_null
+          - unique
+
+      - name: total_events
+        tests:
+          - not_null
+
+      - name: total_transit_days
+        tests:
+          - not_null
