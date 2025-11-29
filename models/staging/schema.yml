@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: stg_container_moves
+    description: "Staging table for container moves with mock data"
+    columns:
+      - name: container_type
+        description: "Type of container"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['dry', 'reefer', 'open']
+
+  - name: stg_container_dry
+    columns:
+      - name: container_type
+        tests:
+          - not_null
+
+  - name: stg_container_reefer
+    columns:
+      - name: container_type
+        tests:
+          - not_null
+
+  - name: stg_container_open
+    columns:
+      - name: container_type
+        tests:
+          - not_null
+      
+      - name: volume
+        tests:
+          - not_null
+          - expression_is_true:
+              expression: "volume > 0"
+    
+  

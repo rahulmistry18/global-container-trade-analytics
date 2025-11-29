@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: container_data
+    tables:
+      - name: container_moves_csv
+        description: "Container moves sample CSV"
