@@ -1,65 +1,41 @@
 {{ config(materialized='table') }}
 
 with base as (
-
-    select
-        container_id,
-        event_type,
-        event_time,
-        event_sequence,
-        port_code,
-        next_event_time,
-        hours_to_next_event
+    select *
     from {{ ref('int_container_flow') }}
 ),
 
-journey as (
+-- Dimension tables
+dim_ports as (
+    select port_code
+    from {{ ref('dim_ports') }}
+),
 
-    select
-        container_id,
+dim_event as (
+    select event_type, event_category
+    from {{ ref('dim_event_types') }}
+),
 
-        -- First and last event
-        min(event_time) as first_event_time,
-        max(event_time) as last_event_time,
-
-        -- First and last port
-        first_value(port_code) over (
-            partition by container_id
-            order by event_time
-        ) as first_port,
-
-        last_value(port_code) over (
-            partition by container_id
-            order by event_time
-            rows between unbounded preceding and unbounded following
-        ) as last_port,
-
-        -- Total transit duration
-        datediff('hour',
-            min(event_time),
-            max(event_time)
-        ) as total_transit_hours,
-
-        datediff('day',
-            min(event_time),
-            max(event_time)
-        ) as total_transit_days,
-
-        -- Number of events
-        count(*) as total_events,
-
-        -- Total dwell time between events
-        sum(hours_to_next_event) as total_dwell_hours,
-
-        -- Current status (last event)
-        last_value(event_type) over (
-            partition by container_id
-            order by event_sequence
-            rows between unbounded preceding and unbounded following
-        ) as current_status
-
-    from base
-    group by container_id
+dim_status as (
+    select current_status, status_group
+    from {{ ref('dim_container_status') }}
 )
 
-select * from journey;
+select
+    b.container_id,
+    b.event_time,
+    b.event_type,
+    e.event_category,
+    b.port_code,
+    p.port_code as port_key,
+    b.country_code,
+    b.move_sequence,
+    b.current_status,
+    s.status_group
+from base b
+left join dim_event e
+    on b.event_type = e.event_type
+left join dim_ports p
+    on b.port_code = p.port_code
+left join dim_status s
+    on b.current_status = s.current_status;
