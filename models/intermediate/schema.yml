@@ -1,5 +1,15 @@
 version: 2
 
 models:
-  - name: int__placeholder
-    description: "Initial intermediate model placeholder"
+  - name: int_container_flow
+    description: "Cleaned, ordered, enriched container event stream."
+    columns:
+      - name: container_id
+        tests:
+          - not_null
+      - name: event_sequence
+        tests:
+          - not_null
+      - name: event_time
+        tests:
+          - not_null

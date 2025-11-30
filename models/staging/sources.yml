@@ -1,7 +1,10 @@
 version: 2
 
 sources:
-  - name: container_data
+  - name: intermediate_raw
+    schema: INTERMEDIATE_RAW
     tables:
-      - name: container_moves_csv
-        description: "Container moves sample CSV"
+      - name: container_events
+      - name: container_moves
+      - name: container_types
+      - name: ports

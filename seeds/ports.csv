@@ -1,0 +1,166 @@
+port_code,port_name,country_code,region
+CNSHA,Shanghai,CN,Asia
+CNSGH,Shekou,CN,Asia
+CNNGB,Ningbo,CN,Asia
+CNSNZ,Shenzhen,CN,Asia
+CNYTN,Tianjin,CN,Asia
+CNHKH,Hong Kong,CN,Asia
+CNSIA,Qingdao,CN,Asia
+CNXMN,Xiamen,CN,Asia
+CNTXG,Tai Xing,CN,Asia
+KRPUS,Busan,KR,Asia
+KRINC,Incheon,KR,Asia
+JPTYO,Tokyo,JP,Asia
+JPOSA,Osaka,JP,Asia
+JPNGO,Nagoya,JP,Asia
+SGSIN,Singapore,SG,Asia
+MYTPP,Port Klang,MY,Asia
+MYPEN,Penang,MY,Asia
+IDJKT,Jakarta,ID,Asia
+IDLGP,Surabaya,ID,Asia
+THBKK,Bangkok,TH,Asia
+VNVUT,Ho Chi Minh City,VN,Asia
+VNHPN,Haiphong,VN,Asia
+PHMNL,Manila,PH,Asia
+INTUT,Tuticorin,IN,Asia
+INMUN,Mundra,IN,Asia
+INNSA,Nhava Sheva (JNPT),IN,Asia
+INCCU,Kolkata,IN,Asia
+INMAA,Chennai,IN,Asia
+AEBND,Bandar Abbas,AE,Asia
+AEJEA,Jebel Ali,AE,Asia
+AEDA2,Khalifa Port,AE,Asia
+SAJED,Jeddah,SA,Asia
+ILASH,Ashdod,IL,Asia
+JOSZB,Aqaba,JO,Asia
+TRIST,Istanbul,TR,Asia
+TRIZM,Izmir,TR,Asia
+NLRTM,Rotterdam,NL,Europe
+NLAMS,Amsterdam,NL,Europe
+DEHAM,Hamburg,DE,Europe
+DEBRV,Bremerhaven,DE,Europe
+DEWVN,Wilhelmshaven,DE,Europe
+BEANR,Antwerp,BE,Europe
+GBFXT,Felixstowe,GB,Europe
+GBSOU,Southampton,GB,Europe
+IEORK,Cork,IE,Europe
+FRLEH,Le Havre,FR,Europe
+ESPAL,Algeciras,ES,Europe
+ESVLC,Valencia,ES,Europe
+ITGIT,Genoa,IT,Europe
+ITTRS,Trieste,IT,Europe
+GRPIR,Piraeus,GR,Europe
+MTMLA,Malta Freeport,MT,Europe
+PLGDY,Gdynia,PL,Europe
+PLGDN,Gdansk,PL,Europe
+RULED,St Petersburg,RU,Europe
+FIHEL,Helsinki,FI,Europe
+SEGBG,Gothenburg,SE,Europe
+DKCPH,Copenhagen,DK,Europe
+NORIS,Oslo,NO,Europe
+LTKLJ,Klaipeda,LT,Europe
+LVLVA,Riga,LV,Europe
+EEVGT,Paldiski,EE,Europe
+PTLEI,Leixoes,PT,Europe
+PTFAR,Faro,PT,Europe
+BGVAR,Varna,BG,Europe
+ROCND,Constanta,RO,Europe
+ALDRZ,Durrës,AL,Europe
+HRRJK,Rijeka,HR,Europe
+SIKOP,Koper,SI,Europe
+TRMRS,Mersin,TR,Europe
+ISKFI,Keflavik,IS,Europe
+UAODS,Odessa,UA,Europe
+USLAX,Los Angeles,US,Americas
+USLGB,Long Beach,US,Americas
+USSFO,San Francisco,US,Americas
+USSEA,Seattle,US,Americas
+USHOU,Houston,US,Americas
+USMIA,Miami,US,Americas
+USNYC,New York / New Jersey,US,Americas
+USCHS,Charleston,US,Americas
+USSAV,Savannah,US,Americas
+USORF,Norfolk,US,Americas
+CAMTR,Montreal,CA,Americas
+CAVAN,Vancouver,CA,Americas
+CASJB,Saint John,CA,Americas
+MXVER,Veracruz,MX,Americas
+MXATM,Altamira,MX,Americas
+MXLZC,Lazaro Cardenas,MX,Americas
+BRSSZ,Santos,BR,Americas
+BRITJ,Itajai,BR,Americas
+BRRIG,Rio Grande,BR,Americas
+ARBAI,Buenos Aires,AR,Americas
+ARROS,Rosario,AR,Americas
+CLVAP,Valparaiso,CL,Americas
+CLSAI,San Antonio,CL,Americas
+COCTG,Cartagena,CO,Americas
+COBUN,Buenaventura,CO,Americas
+PECLL,Callao,PE,Americas
+ECGYE,Guayaquil,EC,Americas
+PAONX,Colon,PA,Americas
+PAZLO,Balboa,PA,Americas
+UYMON,Montevideo,UY,Americas
+VEGUA,Guanta,VE,Americas
+VEPLC,Puerto La Cruz,VE,Americas
+DOCAU,Caucedo,DO,Americas
+PRSAJ,San Juan,PR,Americas
+TTPTS,Port of Spain,TT,Americas
+JMKIN,Kingston,JM,Americas
+HTCAP,Cap-Haïtien,HT,Americas
+BZBZE,Belize City,BZ,Americas
+HNSLB,San Lorenzo,HN,Americas
+GTSVG,St. Georges,GD,Americas
+ZADUR,Durban,ZA,Africa
+ZAPLZ,Port Elizabeth,ZA,Africa
+ZACPT,Cape Town,ZA,Africa
+NGAPP,Apapa (Lagos),NG,Africa
+NGTIN,Tin Can Island,NG,Africa
+GHACC,Tema,GH,Africa
+GNCKY,Conakry,GN,Africa
+CISN9,Abidjan,CI,Africa
+SNDAK,Dakar,SN,Africa
+EGALY,Alexandria,EG,Africa
+EGPSD,Port Said,EG,Africa
+DJSIG,Djibouti,DJ,Africa
+TZDAR,Dar es Salaam,TZ,Africa
+KEMBA,Mombasa,KE,Africa
+MGTOA,Toamasina,MG,Africa
+MAAGD,Agadir,MA,Africa
+MECAS,Casablanca,MA,Africa
+TNRAE,Rades,TN,Africa
+LYTIP,Tripoli,LY,Africa
+DZALG,Algiers,DZ,Africa
+AOLOB,Lobito,AO,Africa
+AOLAD,Luanda,AO,Africa
+NAWVB,Walvis Bay,NA,Africa
+ZMNDL,Ndola,ZM,Africa
+MWBLZ,Blantyre,MW,Africa
+MUMLU,Port Louis,MU,Africa
+REPDG,Pointe des Galets (La Réunion),RE,Africa
+BBFTN,Freetown,SL,Africa
+LRMLW,Monrovia,LR,Africa
+CMDKR,Douala,CM,Africa
+GAOWE,Owendo,GA,Africa
+TGAFL,Lomé,TG,Africa
+BJLPA,Banjul,GMB,Africa
+SDPZU,Port Sudan,SD,Africa
+ETASM,Assab,ET,Africa
+AUMEL,Melbourne,AU,Oceania
+AUSYD,Sydney,AU,Oceania
+AUBNE,Brisbane,AU,Oceania
+AUPTH,Port Hedland,AU,Oceania
+AUFRE,Fremantle,AU,Oceania
+NZAKL,Auckland,NZ,Oceania
+NZTRG,Tauranga,NZ,Oceania
+PGPOM,Port Moresby,PG,Oceania
+FJSUV,Suva,FJ,Oceania
+VUVLI,Port Vila,VU,Oceania
+NCNOU,Noumea,NC,Oceania
+TONGA,Nukualofa,TO,Oceania
+WSAPW,Apia,WS,Oceania
+KIRKW,Tarawa,KI,Oceania
+SLHGU,Honiara,SB,Oceania
+FMKSA,Kolonia,FM,Oceania
+MHMAJ,Majuro,MH,Oceania
+PWKOR, Koror,PW,Oceania
